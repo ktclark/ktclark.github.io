@@ -6,7 +6,10 @@ body {
   font-size: 28px;
   font-family: 'Kaushan Script', cursive;
 }
-
+header div {
+	float:left;
+	width:33.33%;
+}
 p {
   text-align: center;
   background: rgba(21,199,69,.7);
@@ -27,37 +30,34 @@ ul {
   padding: 10px;
 }
 li {
-  display: inline-block;
+  float:left;
   padding: 40px 60px 0 60px;
+  width:33.33%;
 }
-img {
-  width: 200px;
+li img {
+  width: 100%;
   border: 15px solid rgb(145,21,199);
   border-radius: 20px;
 }
-.size {
-  width: 300px;
-}
-
 #allonsy {
   background: -webkit-radial-gradient(circle, rgba(29,108,186,1) 25%, transparent 75%), transparent;
   background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
   background: radial-gradient(circle, rgba(18,66,27,1) 15%, transparent 40%);
   height: 250px;
-  width: 250px;
   border-radius: 200px;
-  margin: -35px auto;
 }
 #slogan {
   padding: 15px 10px;  
   width: 400px;
   border-radius: 100px;
+  margin:auto;
 }
 
 #one{
   width: 400px;
   border-radius: 100px;
   padding: 1em .5em;
+  margin:auto;
 }
 
 #two{
