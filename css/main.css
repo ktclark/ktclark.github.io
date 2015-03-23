@@ -1,12 +1,13 @@
+*{margin:0;padding:0;box-sizing:border-box;}
 body {
   background: url("http://upload.wikimedia.org/wikipedia/commons/9/94/Pacific-centric-map.png") no-repeat center fixed;
   background-size: cover;
+  color: rgb(29,108,186);
+  font-size: 28px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 p {
-  font-size: 28px;
-  color: rgb(29,108,186);
-  font-family: 'Kaushan Script', cursive;
   text-align: center;
   background: rgba(21,199,69,.7);
 }
@@ -16,12 +17,11 @@ h1 {
   font-size: 70px;
   padding: 80px 0;
   text-align: center;
-  color: rgba(18,66,27,.85)
+  color: rgba(18,66,27,.85);
 }
 a {
   font-size: 22px;
   color: rgb(29,108,186);
-  font-family: 'Kaushan Script', cursive;
 }
 ul {
   padding: 10px;
@@ -75,4 +75,11 @@ img {
 
 #bigger {
   font-size: 28px;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
