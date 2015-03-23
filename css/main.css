@@ -25,8 +25,6 @@ a {
 }
 ul {
   padding: 10px;
-  position: relative;
-  top: -300px;
 }
 li {
   display: inline-block;
@@ -42,9 +40,9 @@ img {
 }
 
 #allonsy {
-  background: radial-gradient(circle, rgba(18,66,27,1) 15%, transparent 40%);
   background: -webkit-radial-gradient(circle, rgba(29,108,186,1) 25%, transparent 75%), transparent;
   background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+  background: radial-gradient(circle, rgba(18,66,27,1) 15%, transparent 40%);
   height: 250px;
   width: 250px;
   border-radius: 200px;
@@ -54,30 +52,20 @@ img {
   padding: 15px 10px;  
   width: 400px;
   border-radius: 100px;
-  position: relative;
-  top: -180px;
-  left: 100px;
 }
 
 #one{
   width: 400px;
   border-radius: 100px;
-  padding: 15px 10px;
-  position: relative;
-  top: -315px;
-  left: 920px;
+  padding: 1em .5em;
 }
 
 #two{
-  padding: 7px 0 0 0;
+  padding: .5em 0 0 0;
   margin: 0 auto;
-  position: relative;
-  top: -260px;
 }
 
 #end {
-  position: relative;
-  top: -150px;
 }
 
 #france {
