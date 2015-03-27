@@ -4,13 +4,6 @@ body {
   background-size: cover;
   color: rgb(29,108,186);
   font-size: 28px;
-<<<<<<< Updated upstream
-  font-family: 'Kaushan Script', cursive;
-}
-header div {
-	float:left;
-	width:33.33%;
-=======
   font-family: 'Calligraffitti', cursive;
 }
 header {
@@ -32,33 +25,19 @@ h2{
   background: rgb(21,199,69);
   font-size: 1.5em;
   bottom:0;
->>>>>>> Stashed changes
 }
 p {
   text-align: center;
   background: rgba(21,199,69,.7);
 }
 
-<<<<<<< Updated upstream
-h1 {
-  font-family: 'Chewy', cursive;
-  font-size: 70px;
-  padding: 80px 0;
-  text-align: center;
-  color: rgba(18,66,27,.85);
-}
-=======
->>>>>>> Stashed changes
 a {
   font-size: 22px;
   color: rgb(29,108,186);
 }
 ul {
   padding: 10px;
-<<<<<<< Updated upstream
-=======
   list-style-type: none;
->>>>>>> Stashed changes
 }
 li {
   float:left;
@@ -70,36 +49,9 @@ li img {
   border: 15px solid rgb(145,21,199);
   border-radius: 20px;
 }
-<<<<<<< Updated upstream
-#allonsy {
-  background: -webkit-radial-gradient(circle, rgba(29,108,186,1) 25%, transparent 75%), transparent;
-  background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
-  background: radial-gradient(circle, rgba(18,66,27,1) 15%, transparent 40%);
-  height: 250px;
-  border-radius: 200px;
-}
-#slogan {
-  padding: 15px 10px;  
-  width: 400px;
-  border-radius: 100px;
-  margin:auto;
-}
-
-#one{
-  width: 400px;
-  border-radius: 100px;
-  padding: 1em .5em;
-  margin:auto;
-}
-
-#two{
-  padding: .5em 0 0 0;
-  margin: 0 auto;
-=======
 section #countryList {
   width: 33.33%;
   float: left;
->>>>>>> Stashed changes
 }
 
 #end {
@@ -118,9 +70,4 @@ section #countryList {
 	visibility: hidden; 
 	display: block; 
 	height: 0; 
-<<<<<<< Updated upstream
 	clear: both;
-}
-=======
-	clear: both;
->>>>>>> Stashed changes
