@@ -49,11 +49,13 @@ li img {
   border: 15px solid rgb(145,21,199);
   border-radius: 20px;
 }
-section #countryList {
+section#countryList {
   width: 33.33%;
   float: left;
 }
-
+#countryList li {
+	float:none;
+}
 #end {
 }
 
