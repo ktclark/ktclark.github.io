@@ -4,17 +4,42 @@ body {
   background-size: cover;
   color: rgb(29,108,186);
   font-size: 28px;
+<<<<<<< Updated upstream
   font-family: 'Kaushan Script', cursive;
 }
 header div {
 	float:left;
 	width:33.33%;
+=======
+  font-family: 'Calligraffitti', cursive;
+}
+header {
+  background: -webkit-linear-gradient(left, rgba(21,199,69,1), rgba(21,199,69,.3));
+  background: -moz-linear-gradient(left, rgba(21,199,69,1), rgba(21,199,69,.3));
+  background: linear-gradient(left, rgba(21,199,69,1), rgba(21,199,69,.3));
+  height: 33.33vh;
+}
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  float: left;
+}
+header img{
+  float: right;
+}
+h2{
+  background: rgb(21,199,69);
+  font-size: 1.5em;
+  bottom:0;
+>>>>>>> Stashed changes
 }
 p {
   text-align: center;
   background: rgba(21,199,69,.7);
 }
 
+<<<<<<< Updated upstream
 h1 {
   font-family: 'Chewy', cursive;
   font-size: 70px;
@@ -22,12 +47,18 @@ h1 {
   text-align: center;
   color: rgba(18,66,27,.85);
 }
+=======
+>>>>>>> Stashed changes
 a {
   font-size: 22px;
   color: rgb(29,108,186);
 }
 ul {
   padding: 10px;
+<<<<<<< Updated upstream
+=======
+  list-style-type: none;
+>>>>>>> Stashed changes
 }
 li {
   float:left;
@@ -39,6 +70,7 @@ li img {
   border: 15px solid rgb(145,21,199);
   border-radius: 20px;
 }
+<<<<<<< Updated upstream
 #allonsy {
   background: -webkit-radial-gradient(circle, rgba(29,108,186,1) 25%, transparent 75%), transparent;
   background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
@@ -63,6 +95,11 @@ li img {
 #two{
   padding: .5em 0 0 0;
   margin: 0 auto;
+=======
+section #countryList {
+  width: 33.33%;
+  float: left;
+>>>>>>> Stashed changes
 }
 
 #end {
@@ -81,5 +118,9 @@ li img {
 	visibility: hidden; 
 	display: block; 
 	height: 0; 
+<<<<<<< Updated upstream
 	clear: both;
 }
+=======
+	clear: both;
+>>>>>>> Stashed changes
