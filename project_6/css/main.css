@@ -1,5 +1,14 @@
 *{margin:0;padding:0;box-sizing:border-box;}
-
+p+a {
+	display: block;
+	float: right;
+	margin: 1em;
+	margin-top: 0;
+	text-decoration: underline;
+}
+p+p {
+	margin-top: 1.5em;
+}
 body {
 	background-color: #fff59d;
 	font-family: "Coming Soon", cursive;
@@ -10,28 +19,26 @@ body {
 header {
 	background-color:#fe635d;
 }
+nav {
+	background-color: #fe473c;
+}
+section {
+	float: left;
+}
+aside li {
+	padding-top: 2em;
+	padding-left: .4em;
+}
+aside a {
+	text-decoration: none;
+	color: #000;
+	padding: 2em .7em;
+}
 h1 {
 	font-family: "Fontdiner Swanky", cursive;
 	font-size: 3em;
 	text-align: center;
 	padding: 1em;
-}
-nav {
-	background-color: #fe473c;
-}
-a {
-	text-decoration: none;
-	color: black;
-}
-nav a {
-	font-size: 1.5em;
-	padding: .5em 7%;
-}
-nav a:first-child{
-	padding-left: 15%;
-}
-a:hover {
-	color: #e5d5ff;
 }
 h2 {
 	font-size: 2em;
@@ -47,31 +54,35 @@ h4 {
 	text-decoration: underline;
 	margin-top: 4em;
 }
+a {
+	text-decoration: none;
+	color: black;
+}
+nav a {
+	font-size: 1.5em;
+	padding: .5em 7%;
+}
+nav a:first-child{
+	padding-left: 15%;
+}
+a:hover {
+	color: #e5d5ff;
+}
 ul {
 	list-style-type: none;
+}
+ol {
+	float: right;
+	font-family:"Josefin Slab", serif;
 }
 p {
 	padding: .5em;
 	font-family: "Josefin Slab", serif;
 }
-
-p+a {
-	display: block;
-	float: right;
-	margin: 1em;
-	margin-top: 0;
-	text-decoration: underline;
-}
-p+p {
-	margin-top: 1.5em;
-}
 #wrapper {
 	width: 80%;
 	margin: 0 auto;
 	background-color: #fff;
-}
-section {
-	float: left;
 }
 #left {
 	width: 60%;
@@ -96,27 +107,12 @@ section {
 	padding: 2em;
 	width: 30%;
 }
-#recipes a {
+#recipes a, #patterns a {
 	display: block;
-	float: right;
+	float: left;
 	margin: 0 2em 2em 0;
+	border: .5em solid #fff;
 }
-#patterns a {
-	display: block;
-	float: right;
-	margin: 0 2em 2em 0;
-}
-
-aside li {
-	padding-top: 2em;
-	padding-left: .4em;
-}
-aside a {
-	text-decoration: none;
-	color: #000;
-	padding: 2em .7em;
-}
-
 .menu{
 	width:15%;
 	background-color: purple;
@@ -134,10 +130,6 @@ aside a {
 .center img {
 	width:50%;
 	margin: .5em;
-}
-ol {
-	float: right;
-	font-family:"Josefin Slab", serif;
 }
 .right {
 	float: right;
