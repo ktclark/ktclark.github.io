@@ -1,0 +1,92 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+body {
+  background: url("http://upload.wikimedia.org/wikipedia/commons/9/94/Pacific-centric-map.png") no-repeat center fixed;
+  background-size: cover;
+  color: rgb(29,108,186);
+  font-size: 28px;
+  font-family: 'Calligraffitti', cursive;
+}
+header {
+  background: rgb(133,254,108);
+}
+h1 {
+  font-family: 'Old Standard TT', serif;
+  font-size: 1em;
+  font-weight: bold;
+  float: left;
+  padding: .2em;
+}
+header img{
+  float: right;
+}
+h2{
+  font-size: 2em;
+  bottom: 0;
+  clear:both;
+  text-align: center;
+  border-top: 5px solid rgb(69,87,72);
+  border-bottom: 5px solid rgb(69,87,72);
+ 
+}
+p {
+  text-align: center;
+  background: rgba(21,199,69,.7);
+  clear:both;
+}
+
+a {
+  font-size: 20px;
+  color: rgb(29,108,186);
+}
+
+ul {
+  list-style-type: none;
+}
+
+#countryList {
+  width: 20%;
+  float: left;
+  background-color: rgb(210,231,87);
+}
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+/*#countryList li {
+  float:none;
+}
+*/
+.stories {
+  width:80%;
+  float: left;
+  background-color: rgb(252,232,122);
+}
+
+.stories li {
+  float:left;
+  width:33.33%;
+  padding: .5em;
+}
+
+li img {
+  width: 100%;
+  /*border: 15px solid rgba(145,21,199,.4);*/
+}
+
+a:hover {
+  color: #fe4f44;
+}
+
+.imgheight {
+  height:7em;
+}
+#bigger {
+  font-size: 28px;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
