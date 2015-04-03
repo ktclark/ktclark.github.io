@@ -25,12 +25,10 @@ a {
 }
 nav a {
 	font-size: 1.5em;
+	padding: .5em 7%;
 }
 nav a:first-child{
 	padding-left: 15%;
-}
-nav a:last-child{
-	padding-right: 15%;
 }
 a:hover {
 	color: #e5d5ff;
