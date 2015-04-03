@@ -85,8 +85,11 @@ section {
 }
 #patterns img {
 	float: left;
-	padding: 2em;
-	width: 30%;
+	padding: 1em;
+	width: 100%;
+}
+#patterns img:hover{
+	border: .5em solid #fe473c;
 }
 #recipes img {
 	float: left;
