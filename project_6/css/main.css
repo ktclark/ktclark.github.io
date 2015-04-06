@@ -4,20 +4,25 @@ p+a {
 	float: right;
 	margin: 1em;
 	margin-top: 0;
-	text-decoration: underline;
 }
 p+p {
 	margin-top: 1.5em;
 }
 body {
 	background-color: #fff59d;
-	font-family: "Coming Soon", cursive;
+	font-family: "Goudy Bookletter 1911", serif;
 	font-weight: bold;
 	font-size: 22px;
 	line-height: 150%;
 }
 header {
 	background-color:#E78449;
+}
+header p {
+	font-family: "Fontdiner Swanky", cursive;
+	font-size: 3em;
+	text-align: center;
+	padding: 1em;
 }
 nav {
 	background-color: #FE3C2F;
@@ -28,75 +33,70 @@ nav a {
 	float: left;
 	padding: .3em;
 	margin: 0 2em;
-}
-/*section {
-	float: left;
-}*/
-aside a {
-	padding: .5em;
+	font-family: "Goudy Bookletter 1911", serif;
 }
 
-aside a:hover {
-	text-decoration: underline;
-}
 h1 {
-	font-family: "Fontdiner Swanky", cursive;
-	font-size: 3em;
-	text-align: center;
-	padding: 1em;
+	font-size: 2.2em;
 }
 h2 {
-	font-size: 2em;
-	padding: 1em;
+	font-size: 1.9em;
+	margin-bottom: .8em;
 }
 h3 {
-	font-size: 1.5em;
-	margin-bottom: .8em;
-	padding: .33em;
-}
-h4 {
-	font-size: 1.2em;
+	font-size: 2em;
 	text-decoration: underline;
-	margin-top: 4em;
+	margin-top: 3em;
+	margin-bottom: 1em;
 }
 a {
 	text-decoration: none;
 	color: black;
+	font-family: "Quattrocento", sans-serif;
 }
 nav a:first-child{
 	padding-left: 15%;
 }
 a:hover {
-	color: #e5d5ff;
+	text-decoration: underline;
 }
-ul {
-	list-style-type: none;
-}
+
 ol {
+	font-family:"Quattrocento", sans-serif;
+	padding: 1em;
+}
+.ingredients {
 	float: right;
-	font-family:"Josefin Slab", serif;
+	width: 50%;
+	padding-left: 2em;
+	line-height: 200%;
 }
 p {
-	padding: .5em;
-	font-family: "Josefin Slab", serif;
+	font-family: "Quattrocento", sans-serif;
+	font-weight: 400;
 }
+.directions {
+	clear:both;
+}
+
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
 	background-color: #A854FC;
+	box-shadow: .1em .5em .5em .3em rgba(119,102,119,1);
 }
 
 #blog, #patterns, #recipes {
-	padding: 1em;
+	padding: 1.5em;
 	background-color: #fff;
 }
 #blog img{
 	width: 62%;
 	float: left;
+	padding-right: 2em;
 }
+
 #patterns img {
-	float: left;
-	margin: 1em;
 	width: 100%;
 	border: .5em solid #fff;
 }
@@ -104,56 +104,75 @@ p {
 	border: .5em solid #fe473c;
 }
 #recipes img {
-	float: left;
-	padding: 2em;
-	width: 30%;
+	width: 100%;
+	border: .5em solid #fff;
+}
+#recipes img:hover{
+	border: .5em solid #fe473c;
 }
 #recipes a, #patterns a {
 	display: block;
-	float: left;
-	margin: 0 2em 2em 0;
+	float: right;
 	border: .5em solid #fff;
+	width: 33.33%;
+	text-align: right;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+.h3link {
+	font-size: 2em;
+	text-decoration: underline;
+	float: none;
 }
 .menu{
 	width:19%;
 	background-color: #A854FC;
 	float: left;
 	color: #fff;
-	padding: 1.5em;
 }
 .menu a {
 	color: #fff;
-	margin-bottom: 1em;
 }
 .menu li{
-	padding-left: 1.3em;
-	margin-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 1.5em;
+}
+.indent {
+	margin-left: 1.3em;
+}
+.menu ul {
+	margin-top: 1.5em;
+}
+ul {
+	list-style-type: none;
 }
 .center{
 	width: 62%;
 	background-color: #fff;
 	float: left;
-	padding: 1em;
-}
-.center *{
-	padding: 1em;
+	padding: 2em;
 }
 .center img {
 	width:50%;
-	margin: .5em;
+}
+.separator {
+	margin-top: 4em;
 }
 .right {
 	float: right;
+	padding-left: 1em;
 }
 .left {
 	float: left;
+	padding-right: 1em;
 }
 
 .links {
 	width:19%;
 	background-color: #A854FC;
 	float: left;
-	padding: 1.5em;
+	padding: 1.3em;
 }
 .links a {
 	display: inline-block;
@@ -161,6 +180,7 @@ p {
 }
 .links img {
 	width: 100%;
+	margin-bottom: 3em;
 }
 .links img+a{
 	margin-top: 1em;
