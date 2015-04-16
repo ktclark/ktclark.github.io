@@ -1,0 +1,126 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+body {
+	font-family: "Poiret One", cursive;
+	font-size: 20px;
+}
+.wrapper {
+	padding-top: 3.15em;
+	width: 80%;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 3.8em 20px 10px rgba(153,154,170,1);
+	-moz-box-shadow: 0px 3.8em 20px 10px rgba(153,154,170,1);
+	box-shadow: 0px 3.8em 20px 10px rgba(153,154,170,1);
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: #08A3AA;
+}
+
+ul {
+	list-style-type: none;
+}
+nav {
+	background: -webkit-linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
+	background: -moz-linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
+	background: linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
+	padding-left: 15%;
+	z-index: 5;
+	position: fixed;
+	width: 100%;
+	margin-bottom: 3em;
+}
+
+nav a {
+	float: left;
+	margin-right: 3em;
+	padding: 1em;
+	color: #fff;
+
+}
+nav a:hover {
+	text-decoration: underline;
+	background: rgb(225,89,0);
+	color: white;
+}
+.submenu {
+	position: fixed;
+	z-index: 5;
+	/*visibility: hidden;*/
+	display: block;
+	background: rgba(225,89,0,.7);
+}
+.submenu:hover {
+	visibility: visible;
+}
+section {
+	float: left;
+}
+
+ul { 
+	width: 100%;
+		border-right: .2em solid rgba(0,89,93,.2);
+}
+#splash {
+	color: #fff;
+	background: url("images/bannerpic.jpg") no-repeat center fixed;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+#splash p {
+	text-align: right;
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 3em;
+	right: .5em;
+	line-height: 150%
+}
+#splash img {
+	width:100%;
+	height: 14em;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -1;
+}
+h1 {
+	font-size: 3.5em;
+	float: left;
+	margin: .2em .5em;
+}
+#countrylist {
+	float: left;
+	width: 38%;
+	margin-top: 2em;
+	padding-top: 5em;
+}
+
+.country {
+	margin: 2em 0 .6em 1em;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.city {
+	margin-left: 2em;
+	margin-bottom: .6em;
+}
+.center {
+	float: left;
+	width: 62%;
+	background: rgb(8,163,170);
+}
+.center img {
+	width: 38%;
+	float: right;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
