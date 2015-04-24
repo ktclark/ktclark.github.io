@@ -48,14 +48,14 @@ nav>ul>li:nth-child(2){
 	border-left: .2em solid #e8a74d;
 }
 nav>ul>li>a {
-	color: #fff;
+	color: #056773;
 	padding: .5em .5em .2em .5em;
 	border-bottom: .3em solid transparent;
 	width: 100%;
 }
 nav>ul>li>a:hover{
 	text-decoration: underline;
-	color: #056773;
+	color: #fff;
 }
 nav>ul>.pulldown {
 	position: relative;
