@@ -2,14 +2,16 @@
 body {
 	font-family: "Poiret One", cursive;
 	font-size: 20px;
+	background-color: rgba(255,247,98,.2);
 }
 .wrapper {
-	padding-top: 3.15em;
+	padding-top: 2.2em;
 	width: 80%;
 	margin: 0 auto;
 	-webkit-box-shadow: 0px 3.8em 20px 10px rgba(153,154,170,1);
 	-moz-box-shadow: 0px 3.8em 20px 10px rgba(153,154,170,1);
 	box-shadow: 0px 3.8em 20px 10px rgba(153,154,170,1);
+	background-color: #fff;
 }
 a {
 	color: black;
@@ -21,27 +23,40 @@ a:hover{
 
 ul {
 	list-style-type: none;
+	margin: 0 auto;
 }
-.menu-wrap {
+.mainmenu {
 	width: 100%;
 }
 nav {
-	background: -webkit-linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
+	background: -webkit-linear-gradient(top, rgba(11,216,243,1), rgba(11,216,243,.6));
 	background: -moz-linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
 	background: linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
-	padding-left: 15%;
+	padding-left: 13%;
 	z-index: 5;
 	position: fixed;
 	width: 100%;
-	margin-bottom: 3em;
+	margin: 0 auto;
 }
 nav a {
 	color: #fff;
+	padding: 0 1em;
+	border-left: .35em solid transparent;
+	border-right: .35em solid transparent;
+	border-bottom: .35em solid transparent;
+}
+nav ul {
+	display: block;
+}
+nav>ul>li {
+	width: 20%;
+	padding-top: .62em;
+	float: left;
 }
 nav>ul>li>a {
 	float: left;
-	margin-right: 3em;
-	padding: 1em;
+	/*margin-right: 3em;*/
+	padding: .1em;
 	color: #fff;
 	transition:all linear 0.15s;
 }
@@ -49,8 +64,10 @@ nav>ul>.pulldown {
 	position: relative;
 }
 nav a:hover {
-	text-decoration: underline;
-	background: rgb(225,89,0);
+	/*text-decoration: underline;*/
+	border-left: .35em solid #E8A74D;
+	border-right: .35em solid #E8A74D;
+	border-bottom: .35em solid #E8A74D;
 	color: white;
 }
 nav .arrow {
@@ -115,9 +132,8 @@ ul {
 #countrylist {
 	float: left;
 	width: 20%;
-	margin-top: 5.2em;
 	padding: 1em;
-	border-right: .2em solid rgba(0,89,93,.2);
+	border-right: .2em solid rgba(11,216,243,.2);
 }
 
 .country {
@@ -126,7 +142,7 @@ ul {
 	font-size: 1.3em;
 }
 #countrylist>ul>li {
-	margin-top:0;
+	margin-top:.5em;
 }
 .city {
 	margin-left: 2em;
@@ -135,7 +151,6 @@ ul {
 .center {
 	float: left;
 	width: 80%;
-	margin-top: 5.2em;
 	padding: 1.5em;
 }
 h1 {
@@ -157,6 +172,24 @@ article p {
 	width: 40%;
 	float: left;
 	margin-right: 2em;
+}
+
+#headertest {
+	background: #222222;
+	/*position: relative;
+	top: 4em;*/
+	padding-right: 1.3em;
+}
+#headertest img {
+	float: left;
+	width: 14.28%;
+	padding: 0 0 .75em 1.3em;
+}
+
+#headertest p {
+	padding: .975em;
+	color: #fff;
+	font-size: 1.5em;
 }
 
 .clearfix:after { 
