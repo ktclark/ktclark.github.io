@@ -97,7 +97,7 @@ nav li:hover .submenu {
 }
 .wrapper {
 	position: relative;
-	top: 2.5em;
+	top: 2.6em;
 	width: 85%;
 	-webkit-box-shadow: 0px .7em 1em .5em rgba(153,154,170,1);
 	-moz-box-shadow: 0px .7em 1em .5em rgba(153,154,170,1);
@@ -139,7 +139,7 @@ header p {
 	float: left;
 	width: 25%;
 	padding-top: 3em;
-	border-left: .1em solid #999;
+	
 	margin-top: 5.85em;
 }
 .countrylist a:hover{
@@ -186,8 +186,7 @@ header p {
 .center{
 	width: 75%;
 	float: left;
-	/*padding: 1.5em;*/
-	/*border-right: .4em solid #333;*/
+	border-right: .1em solid #999;
 }
 .imagelink {
 	width: 50%;
@@ -241,6 +240,7 @@ h3 {
 	float: right;
 	font-family: "Kameron", serif;
 	margin: 1.5em 3em 1.5em 0;
+	font-size: 1.5em;
 }
 #traveltips a:hover {
 	color: #09ABC0;
@@ -248,6 +248,10 @@ h3 {
 }
 #touristing a {
 	padding: 1.5em;
+}
+#touristing h3 {
+	margin-top: 1.5em;
+	margin-bottom: -1em;
 }
 #touristing img {
 	width: 100%;
