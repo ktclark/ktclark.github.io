@@ -11,7 +11,7 @@ body {
 	background: -webkit-linear-gradient(top, rgba(11,216,243,1), rgba(11,216,243,.8));
 	background: -moz-linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
 	background: linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
-	position: fixed;
+	position: fixed;top:0;left:0;right:0;
 	z-index: 1;
 	padding: .3em;
 }
@@ -71,13 +71,9 @@ nav .arrow {
 	background: rgba(232,167,77,1);
 	padding: 1em .5em .5em 1em;
 	z-index: -1;
-	opacity: 0;
-	transition: opacity linear 0.15s;
 	width: 100%;
 }
 nav li:hover .submenu {
-	z-index: 5;
-	opacity: 1;
 	transition:all linear 0.15s;
 }
 .submenu li {
