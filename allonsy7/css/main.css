@@ -11,6 +11,7 @@ body {
 	background: -webkit-linear-gradient(top, rgba(11,216,243,1), rgba(11,216,243,.8));
 	background: -moz-linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
 	background: linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
+	background-color: rgb(11,216,243);
 	position: fixed;top:0;left:0;right:0;
 	z-index: 1;
 	padding: .3em;
@@ -133,7 +134,7 @@ header p {
 }
 .countrylist {
 	float: left;
-	width: 25%;
+	width: 30%;
 	padding-top: 3em;
 	
 	margin-top: 5.85em;
@@ -180,14 +181,14 @@ header p {
 }
 
 .center{
-	width: 75%;
+	width: 70%;
 	float: left;
 	border-right: .1em solid #999;
 }
 .imagelink {
 	width: 50%;
 	float: left;
-	padding: 1.5em;
+	padding: 1em;
 }
 h1 {
 	font-size: 3em;
@@ -209,7 +210,7 @@ h2 {
 }
 h3 {
 	font-family: "Kameron", serif;
-	margin: 2em 0;
+	margin: 1.5em 0 .666em 0;
 	font-size: 1.5em;
 	padding-left: .666em;
 }
@@ -223,39 +224,51 @@ h3 {
 }
 #traveltips h3 {
 	margin-top: 1.5em;
+	margin-bottom: .666em;
+}
+#touristing h3 {
+	margin-bottom: 0;
 }
 .center>article {
 	margin-bottom: 4em;
 }
 #traveltips img {
-	width: 70%;
+	width: 80%;
 	display: block;
 	margin: 0 auto;
 }
 #traveltips a {
 	float: right;
 	font-family: "Kameron", serif;
-	margin: 1.5em 3em 1.5em 0;
+	margin: .666em 3em 1.5em 0;
 	font-size: 1.5em;
 }
 #traveltips a:hover {
 	color: #09ABC0;
 	text-decoration: underline;
 }
-#touristing a {
-	padding: 1.5em;
-}
-#touristing h3 {
-	margin-top: 1.5em;
-	margin-bottom: -1em;
-}
 #touristing img {
 	width: 100%;
-	padding: 1.5em;
+	border-radius: .2em;
 }
 #touristing p {
 	font-family: "Kameron", serif;
 	padding: 1.5em;
+	font-size: 1.5em;
+}
+.pleasework {
+	position: relative;
+}
+.pleasework h4 {
+	font-family: "Ubuntu", sans-serif;
+	color: #1E5A19;
+	font-size: 3.5em;
+	line-height: 175%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: .25em .3em;
+	text-align: center;
 }
 .endbar {
 	width: 62%;
@@ -274,16 +287,19 @@ h3 {
 }
 .articlelist {
 	width: 33.33%;
-	padding: 3em 2em;
+	padding: 0 1em 2em 1em;
 	float: left;
 }
 
 .articlelist>a>img {
 	width: 100%;
+	border-radius: .2em;
+	padding-bottom: 1em;
 }
 .articlelist p {
-	font-size: .8em;
+	font-size: 1em;
 	text-align: center;
+	font-weight: 700;
 }
 .contact {
 	float: right;
