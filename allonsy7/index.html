@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<title>Allons-y</title>
+	<meta charset=“utf-8”>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,700' rel='stylesheet' type='text/css'>
+	<meta name=“viewport” content=“width=device-width, initial-scale=1”>
 </head>
 <body>
 		<nav class="mainmenu clearfix">
@@ -41,28 +43,47 @@
 			</ul>
 		</nav>
 
+		<div class="mobile-nav">
+     		<div class="menu-btn" id="menu-btn">
+				<div></div>
+				<span></span>
+				<span></span>
+				<span></span>     		
+				<div class="responsive-menu">
+        		<ul>
+           			<li>Home</li>
+           			<li>Travel Tips</li>
+           			<li>Countries 101</li>
+           			<li>Salacious Stories</li>
+           			<li>Photo Albums</li>
+           			<li>Blog</li>
+        		</ul>
+     		</div>
+		</div>
+
+
 <div class="wrapper clearfix">
 	<div class="coolheader clearfix">
 		<header class="clearfix">
 			<!--<p>Allons-y!</p>-->
 
-			<img src="images/ptbanner.eiffel.jpg" alt="a portrait-oriented picture of the eiffel tower at night" title="the Eiffel Tower sparkles">
+			<img src="images/ptbanner.eiffelsm.jpg" alt="a portrait-oriented picture of the eiffel tower at night" title="the Eiffel Tower sparkles">
 		
-			<img src="images/ptbanner.tikalthree.jpg" alt="a portrait-oriented picture of one of the pyramids of the Mayan ruins at Tikal seen through the jungle" title="Tikal">
+			<img src="images/ptbanner.tikalsm.jpg" alt="a portrait-oriented picture of one of the pyramids of the Mayan ruins at Tikal seen through the jungle" title="Tikal">
 		
-			<img src="images/ptbanner.ggbridge.jpg" alt="a portrait-oriented picture of the golden gate bridge on a sunny day" title="the Golden Gate Bridge">
+			<img src="images/ptbanner.ggbridgesm.jpg" alt="a portrait-oriented picture of the golden gate bridge on a sunny day" title="the Golden Gate Bridge">
 		
-			<img src="images/ptbanner.pragueclock.jpg" alt="a portrait-oriented picture of the astronomical clock of Prague" title="The Astronomical Clock of Prague">
+			<img src="images/ptbanner.pragueclocksm.jpg" alt="a portrait-oriented picture of the astronomical clock of Prague" title="The Astronomical Clock of Prague">
 		
-			<img src="images/ptbanner.beach.jpg" alt="a beach on a sunny day, orange striped walkway, orange beach chairs, tiki umbrella" title="Beach Paradise">
+			<img src="images/ptbanner.beachsm.jpg" alt="a beach on a sunny day, orange striped walkway, orange beach chairs, tiki umbrella" title="Beach Paradise">
 		
-			<img src="images/ptbanner.murano.jpg" alt="a portrait-oriented picture of 	brightly colored houses in Murano, Venice, Italy and boats in the canal below" title="Colored Houses of Murano">
+			<img src="images/ptbanner.muranosm.jpg" alt="a portrait-oriented picture of brightly colored houses in Murano, Venice, Italy and boats in the canal below" title="Colored Houses of Murano">
 		
-			<img src="images/ptbanner.greece.jpg" alt="a portrait-oriented picture of a sunny day in Santorini, Greece, a view over the Aegean Sea and a yacht" title="Umbrella in Santorini">
+			<img src="images/ptbanner.greecesm.jpg" alt="a portrait-oriented picture of a sunny day in Santorini, Greece, a view over the Aegean Sea and a yacht" title="Umbrella in Santorini">
 
-			<img src="images/ptbanner.highlandsone.jpg" alt="a portrait-oriented picture of the highlands of Scotland, a river cutting through green hills" title="The Scottish Highlands">
+			<img src="images/ptbanner.highlandssm.jpg" alt="a portrait-oriented picture of the highlands of Scotland, a river cutting through green hills" title="The Scottish Highlands">
 			
-			<img src="images/ptbanner.sagrada.jpg" alt="a portrait-oriented picture of the Sagrada Familia Cathedral in Barcelona on a clear day" title="The Sagrada Familia">
+			<img src="images/ptbanner.sagradasm.jpg" alt="a portrait-oriented picture of the Sagrada Familia Cathedral in Barcelona on a clear day" title="The Sagrada Familia">
 
 		</header>
 	</div>
@@ -112,6 +133,8 @@
 			<p>To learn some basic phrases in the language of your destination, check out <a href="#">Countries 101</a>.</p>
 
 	</article>
+
+
 
 			<!--<div class="endbar"></div>-->
 	
@@ -171,6 +194,7 @@
 		<p>Allons-y!</p>
 			
 		<h3>Photo Albums</h3>
+		
 		<ul>
 			<li class="country"><a href="#">France</a></li>
 				<li class="city"><a href="#">Paris</a></li>
@@ -183,75 +207,110 @@
 				<li class="city"><a href="#">Toulouse</a></li>
 				<li class="city"><a href="#">La Rochelle</a></li>
 				<li class="city"><a href="#">Clermont-Ferrand</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Italy</a></li>
 				<li class="city"><a href="#">Florence</a></li>
 				<li class="city"><a href="#">Venice</a></li>
 				<li class="city"><a href="#">Rome</a></li>
-			
+		</ul>
+		
+		<ul>
 			<li class="country"><a href="#">Spain</a></li>
 				<li class="city"><a href="#">Barcelona</a></li>
 				<li class="city"><a href="#">Madrid</a></li>
 				<li class="city"><a href="#">Santiago de Compostela</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Belgium</a></li>
-				<li class="city"><a href="#">Bruges</a></li>				
+				<li class="city"><a href="#">Bruges</a></li>
+		</ul>				
 			
+		<ul>
 			<li class="country"><a href="#">The Netherlands</a></li>
 				<li class="city"><a href="#">Amsterdam</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Austria</a></li>
 				<li class="city"><a href="#">Vienna</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Greece</a></li>
 				<li class="city"><a href="#">Athens</a></li>
 				<li class="city"><a href="#">Crete</a></li>
 				<li class="city"><a href="#">Santorini</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Hungary</a></li>
 				<li class="city"><a href="#">Budapest</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">The Czech Republic</a></li>
 				<li class="city"><a href="#">Prague</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">England</a></li>
 				<li class="city"><a href="#">London</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Scotland</a></li>
 				<li class="city"><a href="#">Edinburgh</a></li>
 				<li class="city"><a href="#">Glasgow</a></li>
 				<li class="city"><a href="#">Balquiddhar</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Wales</a></li>
 				<li class="city"><a href="#">Cardiff</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Ireland</a></li>
 				<li class="city"><a href="#">Dublin</a></li>
 				<li class="city"><a href="#">Galway</a></li>
 				<li class="city"><a href="#">Cork</a></li>
 				<li class="city"><a href="#">Limerick</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Belize</a></li>
 				<li class="city"><a href="#">Caves Branch</a></li>
 				<li class="city"><a href="#">San Pedro</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">The Dominican Republic</a></li>
 				<li class="city"><a href="#">Punta Cana</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Costa Rica</a></li>
 				<li class="city"><a href="#">San Jose</a></li>
+		</ul>
 			
+		<ul>
 			<li class="country"><a href="#">Guatemala</a></li>
 				<li class="city"><a href="#">Tikal</a></li>
 		</ul>
 	</aside>
-	<!--<aside class="contact clearfix">
-
-		
-	</aside>-->
 	
 	</div>
 
+<script type="text/javascript">
+jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+</script>
 
 </body>
 		
