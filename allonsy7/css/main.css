@@ -1,6 +1,4 @@
-
 *{margin:0; padding:0; box-sizing: border-box;}
-
 body {
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
@@ -8,12 +6,8 @@ body {
 }
 .mainmenu {
 	width: 100%;
-	background: -webkit-linear-gradient(top, rgba(11,216,243,1), rgba(11,216,243,.8));
-	background: -moz-linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
-	background: linear-gradient(top, rgba(0,89,93,1), rgba(0,89,93,.7));
 	background-color: rgb(11,216,243);
 	position: fixed;top:0;left:0;right:0;
-	z-index: 1;
 	padding: .3em;
 }
 nav {
@@ -67,15 +61,26 @@ nav .arrow {
 }
 .submenu {
 	position: absolute;
-	top: 32px;
+	top: -800px;
 	left: 0;
 	background: rgba(232,167,77,1);
 	padding: 1em .5em .5em 1em;
 	z-index: -1;
 	width: 100%;
 }
+.pulldown:hover .submenu {
+	position:absolute;
+	top:32px;
+}
 nav li:hover .submenu {
 	transition:all linear 0.15s;
+}
+#navigation {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
 }
 .submenu li {
 	display: block;
