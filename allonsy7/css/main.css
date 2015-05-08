@@ -328,7 +328,7 @@ h3 {
 #storiescenter {
 	float: left;
 	width: 75%;
-	border-right: .1em solid #999;
+	border-left: .1em solid #999;
 }
 #storiescenter p {
 	padding: 2em 2em 0;
