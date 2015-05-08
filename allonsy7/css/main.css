@@ -324,11 +324,13 @@ h3 {
 	padding: 1em 1em 0 1em;
 	line-height: 150%;
 	text-align: center;
+	margin-bottom: 2em;
 }
 #storiescenter {
 	float: left;
 	width: 75%;
 	border-left: .1em solid #999;
+	line-height: 150%;
 }
 #storiescenter p {
 	padding: 2em 2em 0;
