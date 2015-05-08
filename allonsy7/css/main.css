@@ -307,6 +307,33 @@ h3 {
 	width: 19%;
 }
 
+/*stories styling*/
+.leftmenu {
+	padding-top: 1em;
+	
+	width: 25%;
+	float: left;
+}
+.leftmenu h3 {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 700;
+}
+.leftmenu p {
+	font-size: 1em;
+	font-family: "Kameron", serif;
+	padding: 1em 1em 0 1em;
+	line-height: 150%;
+	text-align: center;
+}
+#storiescenter {
+	float: left;
+	width: 75%;
+	border-right: .1em solid #999;
+}
+#storiescenter p {
+	padding: 2em 2em 0;
+}
+
 
 
 .mobile-nav {
