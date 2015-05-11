@@ -315,6 +315,34 @@ h3 {
 	float: right;
 	width: 19%;
 }
+/*countries101 styling*****************************************************************/
+#countriescenter {
+	width: 100%;
+	border-left: none;
+}
+.headline {
+	background-color: #333;
+	width: 100%;
+	border-bottom: .4em solid #e8a74d;
+}
+.headline * {
+	float: left;
+}
+.headline h1 {
+	text-align: center;
+	border-bottom: none;
+	padding-top: 1em;
+	width: 50%;
+}
+.headline img {
+	width: 25%;
+	padding: .5em 4em;
+}
+iframe {
+	width: 50%;
+	margin-left: 25%;
+	padding-top: 1em;
+}
 
 
 
@@ -424,10 +452,12 @@ h3 {
 
 .mobile-nav {
 	display: none;
+
 }
 .menu-btn {
 	background: rgb(11,216,243);
 	padding: 1em;
+	
 }
 .menu-btn div {
 	padding-right: .4em;
@@ -436,6 +466,7 @@ h3 {
 	font-size: 1em;
 	font-weight: 300;
 	vertical-align: middle;
+	float: right;
 }
 .menu-btn span {
 	display: block;
@@ -452,11 +483,24 @@ h3 {
 	background: rgb(11,216,243);
 	padding: 1em;
 	position:absolute;
-	top:55px;
+	top: 55px;
 	z-index:1;
 }
 .responsive-menu ul{
 	list-style-type: none;
+}
+.responsive-menu a {
+	color: white;
+	padding: 1em;
+	line-height: 150%;
+}
+.responsivemenu li {
+	margin-bottom: 1.5em;
+	width: 100%;
+}
+.responsivemenu a:hover{
+	text-decoration: underline;
+	color: #056773;
 }
 
 

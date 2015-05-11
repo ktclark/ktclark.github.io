@@ -2,6 +2,9 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<title>Allons-y</title>
 	<meta charset=“utf-8”>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -19,7 +22,7 @@
 				<li><a href="traveltips.html">Travel Tips</a></li>
 				<li class="pulldown"><a href="#">Countries 101 <span class="arrow"> &#9660;</span></a>
 					<ul class="submenu">
-						<li><a href="#">France</a></li>
+						<li><a href="countries101_france.html">France</a></li>
 						<li><a href="#">Italy</a></li>
 						<li><a href="#">Spain</a></li>
 						<li><a href="#">Belgium</a></li>
@@ -136,11 +139,19 @@
 </div>
 
 <script type="text/javascript">
-jQuery(function($){
+	jQuery(function($){
     	     $( '.menu-btn' ).click(function(){
     	     $('.responsive-menu').toggleClass('expand')
     	     })
         })
+
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+			openEffect	: 'none',
+			closeEffect	: 'none'
+		});
+	});
 </script>
 
 </body>
+</html>

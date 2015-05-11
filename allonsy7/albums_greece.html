@@ -2,6 +2,9 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<title>Allons-y</title>
 	<meta charset=“utf-8”>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -19,7 +22,7 @@
 				<li><a href="traveltips.html">Travel Tips</a></li>
 				<li class="pulldown"><a href="#">Countries 101 <span class="arrow"> &#9660;</span></a>
 					<ul class="submenu">
-						<li><a href="#">France</a></li>
+						<li><a href="countries101_france.html">France</a></li>
 						<li><a href="#">Italy</a></li>
 						<li><a href="#">Spain</a></li>
 						<li><a href="#">Belgium</a></li>
@@ -103,9 +106,10 @@
 			<h3>Greece</h3>
 			<p>Where the sea is big and the people are friendly.</p>
 			<ul>
-				<li class="city"><a href="#">Santorini</a></li>
+				<li class="city"><a href="#">Athens</a></li>
+				<li class="city"><a href="#santorinilink">Santorini</a></li>
 				<li class="city"><a href="#cretelink">Crete</a></li>
-				<li class="city"><a href="#athenslink">Athens</a></li>
+				
 			</ul>
 
 			<h3>Other Albums</h3>
@@ -117,7 +121,7 @@
 		</aside>
 
 	<div class="clearfix secondarycenter" id="albumcenter">
-		<h2>Santorini</h2>
+		<h2>Athens</h2>
 		<img src="images/venice_canalboatsh.jpg" alt="18 bottles of different flavors of Cassis in various colors, red, plum, orange, purple, yellow, clear. (cassis is a sweet liquor made to accompany wine)" title="Cassis Samples">
 		<img src="images/venice_canalsanmarcotowerh.jpg" alt="an owl carved into a wall in Dijon, rubbed smooth because it's the symbol of Dijon and people rub the owl for luck" title="The Chouette of Dijon">
 		<img class="sizeadjust" src="images/venice_bridgesospiriv.jpg" alt="golden glowing eiffel tower at night" title="Glowing Eiffel Tower">
@@ -133,7 +137,7 @@
 		<img src="images/venice_muranoh.jpg" alt="the upper layers of the cathedral Notre Dame de Dijon on a cloudy day" title="Notre Dame de Dijon">
 		<img src="images/venice_sunseth.jpg" alt="a view of the Place de la Libération in Dijon from the top of the tower of the Palais des Ducs" title="Place de la Libération">
 		
-		<h2>Crete</h2><div id="cretelink"></div>
+		<h2>Santorini</h2><div id="santorinilink"></div>
 		<img src="images/florence_stormyduomoh.jpg" alt="18 bottles of different flavors of Cassis in various colors, red, plum, orange, purple, yellow, clear. (cassis is a sweet liquor made to accompany wine)" title="Cassis Samples">
 		<img src="images/florence_nighttimeh.jpg" alt="an owl carved into a wall in Dijon, rubbed smooth because it's the symbol of Dijon and people rub the owl for luck" title="The Chouette of Dijon">
 		<img class="sizeadjust" src="images/florence_prettybuildingv.jpg" alt="blue, red, and yellow flags of the Ducs of Bourgogne hanging over the Rue de la Liberté on a sunny day" title="Flags of the Ducs of Bourgogne">
@@ -147,7 +151,7 @@
 		<img src="images/florence_bridgeh.jpg" alt="a tour boat on a canal in Strasbourg in the late evening, colored half-tiered houses in the background" title="Strasbourg Canal at night">
 		<img src="images/florence_sunseth.jpg" alt="a rainbow behind a church-looking building in Strasbourg" title="Rainbow in Strasbourg">
 		
-		<h2>Athens</h2><div id="athenslink"></div>
+		<h2>Crete</h2><div id="cretelink"></div>
 		<img class="sizeadjust" src="images/strasbourg_cathedralrightv.jpg" alt="a view of the right side of the Cathedral of Strasbourg on a mostly sunny day with the sun behind it" title="the Strasbourg Cathedral">
 		<img class="sizeadjust" src="images/strasbourg_clockv.jpg" alt="the astronomical clock of the Strasbourg Cathedral" title="the Astronomical Clock of Strasbourg">
 		<img src="images/strasbourg_nightboath.jpg" alt="a tour boat on a canal in Strasbourg in the late evening, colored half-tiered houses in the background" title="Strasbourg Canal at night">
@@ -162,11 +166,20 @@
 </div>
 
 <script type="text/javascript">
-jQuery(function($){
+	jQuery(function($){
     	     $( '.menu-btn' ).click(function(){
     	     $('.responsive-menu').toggleClass('expand')
     	     })
         })
+
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+			openEffect	: 'none',
+			closeEffect	: 'none'
+		});
+	});
 </script>
 
 </body>
+
+</html>
