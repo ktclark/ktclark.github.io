@@ -307,6 +307,10 @@ h3 {
 	text-align: center;
 	font-weight: 700;
 }
+.articlelist .titlelink:hover {
+	color: #09ABC0;
+	text-decoration: underline;
+}
 .contact {
 	float: right;
 	width: 19%;
@@ -322,6 +326,9 @@ h3 {
 	padding-top: 1em;
 	width: 25%;
 	float: left;
+}
+.leftmenu ul+h3 {
+	padding-top: 3em;
 }
 .leftmenu li { 
 	margin-bottom: 2em; 
@@ -341,11 +348,16 @@ h3 {
 	color: #09ABC0;
 	text-decoration: underline;
 }
+.thisstory {
+	background-color: #999;
+	width: 100%;
+}
 .secondarycenter {
 	float: left;
 	width: 75%;
 	border-left: .1em solid #999;
 	line-height: 150%;
+	padding-bottom: 2em;
 }
 .secondarycenter p {
 	padding: 2em 2em 0;
@@ -392,6 +404,21 @@ h3 {
 	width: 34%;
 	margin-right: 8%;
 	margin-left: 8%;
+}
+
+
+/*blog styling*******************************************************/
+.blogpost {
+	padding-bottom: 6em;
+	border-top: .1em solid #999;
+}
+.blogpost h2 {
+	padding: .75em 1em .5em;
+	width: 40%;
+	border-bottom: .25em solid #e8a74d;
+}
+.blogpost p {
+	padding-top: 1.5em;
 }
 
 
