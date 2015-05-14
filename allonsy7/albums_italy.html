@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="fancyapps-fancyBox-18d1712/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 	<title>Allons-y</title>
-	<meta charset=“utf-8”>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,700' rel='stylesheet' type='text/css'>
@@ -103,8 +104,7 @@
 	</div>
 
 	<aside class="leftmenu clearfix">
-			<h3>Italy</h3>
-			<p>The country of vibrant, exciting LIFE, where people can't help but to talk with their hands. And we can't forget gelato.</p>
+			<h3>Cities</h3>
 			<ul>
 				<li class="city"><a href="#">Venice</a></li>
 				<li class="city"><a href="#florencelink">Florence</a></li>
@@ -115,57 +115,145 @@
 			<ul>
 				<li class="city"><a href="albums_france.html">France</a></li>
 				<li class="city"><a href="albums_greece.html">Greece</a></li>
+				<li class="city"><a href="albums_spain.html">Spain</a></li>
 				<li class="city"><a href="albums_czech.html">The Czech Republic</a></li>
+
 			</ul>
 		</aside>
 
-	<div class="clearfix secondarycenter" id="albumcenter">
-		<h2>Venice</h2>
-		<img src="images/venice_canalboatsh.jpg" alt="18 bottles of different flavors of Cassis in various colors, red, plum, orange, purple, yellow, clear. (cassis is a sweet liquor made to accompany wine)" title="Cassis Samples">
-		<img src="images/venice_canalsanmarcotowerh.jpg" alt="an owl carved into a wall in Dijon, rubbed smooth because it's the symbol of Dijon and people rub the owl for luck" title="The Chouette of Dijon">
-		<img class="sizeadjust" src="images/venice_bridgesospiriv.jpg" alt="golden glowing eiffel tower at night" title="Glowing Eiffel Tower">
-		<img class="sizeadjust" src="images/venice_canalchurchv.jpg" alt="Eiffel Tower in distance during the day beyond the Jardin des Tuileries" title="more stuff and nonsense">
-		<img src="images/venice_canaltoph.jpg" alt="the Arc de Triomphe with mostly blue skies and sun behind it surrounded by cars" title="L'Arc de Triomphe">
-		<img src="images/venice_floodedsanmarcoh.jpg" alt="sunset sky with some clouds, the Eiffel Tower, the Louvre, the Jardin des Tuileries in the distance" title="Paris at Sunset">
-		<img class="sizeadjust" src="images/venice_gondolav.jpg" alt="Notre Dame in Paris on a cloudy day with a crowd in front" title="Notre Dame">
-		<img class="sizeadjust" src="images/venice_hiddencanalv.jpg" alt="trees at the edge of the Jardin des Tuileries" title="Trees">
-		<img src="images/venice_housesacrosscanalh.jpg" alt="The Moulin Rouge in Paris in the evening" title="the Moulin Rouge">
-		<img src="images/venice_imposingchapelh.jpg" alt="Sacre Coeur on Mont-Martre in Paris" title="Sacre Coeur">
-		<img class="sizeadjust" src="images/venice_nightcanalv.jpg" alt="blue, red, and yellow flags of the Ducs of Bourgogne hanging over the Rue de la Liberté on a sunny day" title="Flags of the Ducs of Bourgogne">
-		<img class="sizeadjust" src="images/venice_towersanmarcov.jpg" alt="the fountain at Darcy Park in Dijon, blue-green water, green trees, white sky" title="Fontaine Darcy">
-		<img src="images/venice_muranoh.jpg" alt="the upper layers of the cathedral Notre Dame de Dijon on a cloudy day" title="Notre Dame de Dijon">
-		<img src="images/venice_sunseth.jpg" alt="a view of the Place de la Libération in Dijon from the top of the tower of the Palais des Ducs" title="Place de la Libération">
+	<div class="clearfix secondarycenter albumcenter">
+		<h1>Italy</h1>
+		<section id="venicelink">
+			<h2>Venice</h2>
+			<a class="fancybox" rel="gallery1" href="images/venice_canalboatsh.jpg" title="Boats Along the Canal">
+				<img src="images/venice_canalboatsh.jpg" alt="small boats parked along a canal in Venice, lined by colorful houses" title="Boats Along the Canal">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_canalsanmarcotowerh.jpg" title="The Tower of San Marco Square Across Canal">
+				<img src="images/venice_canalsanmarcotowerh.jpg" alt="an owl carved into a wall in Dijon, rubbed smooth because it's the symbol of Dijon and people rub the owl for luck" title="The Chouette of Dijon">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_bridgesospiriv.jpg" title="Bridge Sospiri at Night">
+				<img class="sizeadjust" src="images/venice_bridgesospiriv.jpg" alt="the Sospiri bridge over a canal at night, illuminated by a spotlight" title="Glowing Eiffel Tower">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_canalchurchv.jpg" title="Church Across Canal">
+				<img class="sizeadjust" src="images/venice_canalchurchv.jpg" alt="a light orange church with a doned roof as seen across the Grand Canal in Venice" title="Church Across Canal">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_canaltoph.jpg" title="Canal from Bridge">
+				<img src="images/venice_canaltoph.jpg" alt="a sunny day,  a view down onto a Venice canal half in shade with small motor boats and some gondolas on the canal" title="Canal from Bridge">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_floodedsanmarcoh.jpg" title="Flooded San Marco Square">
+				<img src="images/venice_floodedsanmarcoh.jpg" alt="an overcast night, the tower in San Marco's square rises into the air, the partly flooded square is illuminated by the three-story buildings on either side of the square" title="Flooded San Marco Square">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_gondolav.jpg" title="Venician Gondola">
+				<img class="sizeadjust" src="images/venice_gondolav.jpg" alt="an empty gondola tied up in a narrow, shaded canal in Venice, a second empty gondola in the background" title="Notre Dame">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_hiddencanalv.jpg" title="The Hidden Canal">
+				<img class="sizeadjust" src="images/venice_hiddencanalv.jpg" alt="sunny day, a narrow, shaded canal bordered by buildings of orange brick with descending bushes of vines" title="The Hidden Canal">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_housesacrosscanalh.jpg" title="Houses on Canal">
+				<img src="images/venice_housesacrosscanalh.jpg" alt="a sunny day with the sun low in the sky, bouncing off orange and white bulidings to reflect on the rough water of the canal" title="Houses on Canal">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_imposingchapelh.jpg" title="Chapel at Night">
+				<img src="images/venice_imposingchapelh.jpg" alt="looking up at a white chapel against a dark, partly cloudy sky, the moon shines just above the right corner of the chapel and illuminates the clouds around it" title="Chapel at Night">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_nightcanalv.jpg" title="Canal at Night">
+				<img class="sizeadjust" src="images/venice_nightcanalv.jpg" alt="a canal at night with five boats tied up along the side and yellow lights illuminating the yellow and light orange buildings lining the canal" title="Canal at Night">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_towersanmarcov.jpg" title="The Tower of San Marco Square">
+				<img class="sizeadjust" src="images/venice_towersanmarcov.jpg" alt="looking up at the orange tower with a green roof against a clear blue sky" title="The Tower of San Marco Square">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_muranoh.jpg" title="A Square on Murano, Venice">
+				<img src="images/venice_muranoh.jpg" alt="a quiet square surrounded by brightly colored houses, an unmanned jewelry vendor's cart in the lower right corner, and a few tables from a little café in the background on the left of the image" title="A Square on Murano, Venice">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/venice_sunseth.jpg" title="Sunset Canal">
+				<img src="images/venice_sunseth.jpg" alt="sunset in over a canal in Venice, partly cloudly, trees and yellow street lamps lining the canal, and an orange foot bridge on the left of the image" title="Sunset Canal">
+			</a>
+		</section>
 		
-		<h2>Florence</h2><div id="florencelink"></div>
-		<img src="images/florence_stormyduomoh.jpg" alt="18 bottles of different flavors of Cassis in various colors, red, plum, orange, purple, yellow, clear. (cassis is a sweet liquor made to accompany wine)" title="Cassis Samples">
-		<img src="images/florence_nighttimeh.jpg" alt="an owl carved into a wall in Dijon, rubbed smooth because it's the symbol of Dijon and people rub the owl for luck" title="The Chouette of Dijon">
-		<img class="sizeadjust" src="images/florence_prettybuildingv.jpg" alt="blue, red, and yellow flags of the Ducs of Bourgogne hanging over the Rue de la Liberté on a sunny day" title="Flags of the Ducs of Bourgogne">
-		<img class="sizeadjust" src="images/florence_nightduomov.jpg" alt="the fountain at Darcy Park in Dijon, blue-green water, green trees, white sky" title="Fontaine Darcy">
-		<img src="images/florence_coloredlanternsh.jpg" alt="the upper layers of the cathedral Notre Dame de Dijon on a cloudy day" title="Notre Dame de Dijon">
-		<img src="images/florence_dayriverh.jpg" alt="a view of the Place de la Libération in Dijon from the top of the tower of the Palais des Ducs" title="Place de la Libération">
-		<img src="images/florence_kayakerh.jpg" alt="the vineyards of Château de Marsannay outside Dijon on a sunny day" title="Château de Marsannay">
-		<img src="images/florence_buildingh.jpg" alt="barrels of wine piled up, the rows disappearing into the dark at the end of a long corridor" title="Wine Caves of Château de Marsannay">
-		<img class="sizeadjust" src="images/florence_sideduomov.jpg" alt="a view of the right side of the Cathedral of Strasbourg on a mostly sunny day with the sun behind it" title="the Strasbourg Cathedral">
-		<img class="sizeadjust" src="images/florence_lanternsv.jpg" alt="the astronomical clock of the Strasbourg Cathedral" title="the Astronomical Clock of Strasbourg">
-		<img src="images/florence_bridgeh.jpg" alt="a tour boat on a canal in Strasbourg in the late evening, colored half-tiered houses in the background" title="Strasbourg Canal at night">
-		<img src="images/florence_sunseth.jpg" alt="a rainbow behind a church-looking building in Strasbourg" title="Rainbow in Strasbourg">
+		<section id="florencelink">
+			<h2>Florence</h2>
+			<a class="fancybox" rel="gallery2" href="images/florence_stormyduomoh.jpg" title="The Duomo on a Stormy Day">
+				<img src="images/florence_stormyduomoh.jpg" alt="looking up at the Duomo in Florence, Italy - a large with building with green accents and three orange domes - with a cloudy sky behind it" title="The Duomo on a Stormy Day">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_nighttimeh.jpg" title="Florence at Night">
+				<img src="images/florence_nighttimeh.jpg" alt="overcast sky, a faraway view of illuminated buildings of Florence: the duomo, a church, and a tower further away" title="Florence at Night">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_prettybuildingv.jpg" title="Pretty Building in Florence">
+				<img class="sizeadjust" src="images/florence_prettybuildingv.jpg" alt="a white building with green and red accents, and three peaked roofs, two of which have a light red cross, and the middle has a big blue star of David; the sky above is overcast and the street below is filled with tourists" title="Pretty Building in Florence">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_nightduomov.jpg" title="The Duomo at Night">
+				<img class="sizeadjust" src="images/florence_nightduomov.jpg" alt="looking up at the duomo against a black sky" title="The Duomo at Night">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_coloredlanternsh.jpg" title="Lanterns of the Notte Bianche">
+				<img src="images/florence_coloredlanternsh.jpg" alt="looking down at the Arno River in Florence at night, yellow street lights lining the river and illuminating the Ponte Vecchio; down on the river are a couple dozen floating, brightly colored lanterns" title="Lanterns of the Notte Bianche">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_dayriverh.jpg" title="The Arno River">
+				<img src="images/florence_dayriverh.jpg" alt="a mostly sunny day, the Arno River, a bridge in the distance, moderately tall orange buildings bordering the left bank of the river" title="The Arno River">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_kayakerh.jpg" title="Bridge over the Arno River">
+				<img src="images/florence_kayakerh.jpg" alt="early sunset over the Arno River reflecting on the left side of the image, a bridge centered in the background, yellow and orange buildings on either side of the river, a single kayaker in the middle of the photo on the river" title="Bridge over the Arno River">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_buildingh.jpg" title="Stormy Building">
+				<img src="images/florence_buildingh.jpg" alt="a stormy sky, an off-white building with dark green, geometric decorations and very large, green, double front doors" title="Stormy Building">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_sideduomov.jpg" title="the Corner of the Duomo">
+				<img class="sizeadjust" src="images/florence_sideduomov.jpg" alt="a view of the inside corner of the duomo, pink and green accents, orange dome against an overcast sky" title="the Strasbourg Cathedral">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_lanternsv.jpg" title="Floating Lanterns">
+				<img class="sizeadjust" src="images/florence_lanternsv.jpg" alt="mostly black image except for the orange lanterns floating up into the sky" title="Floating Lanterns">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_bridgeh.jpg" title="The Ponte Vecchio">
+				<img src="images/florence_bridgeh.jpg" alt="the orange and yellow shops on the Ponte Vecchio, a fuzzy reflection on the river below, some houses rising on the hill behind to the right, and an overcast sky behind everything" title="The Ponte Vecchio">
+			</a>
+			<a class="fancybox" rel="gallery2" href="images/florence_sunseth.jpg" title="Sunset over Florence">
+				<img src="images/florence_sunseth.jpg" alt="some clouds, golden rays cast orange and purple shadows on clouds and onto the water of the river, a bridge in the center in the distance, shadowed buildings line the river" title="Sunset over Florence">
+			</a>
+		</section>
 		
-		<h2>Rome</h2><div id="romelink"></div>
-		<img src="images/rome_basilicah.jpg" alt="a tour boat on a canal in Strasbourg in the late evening, colored half-tiered houses in the background" title="Strasbourg Canal at night">
-		<img src="images/rome_colliseumh.jpg" alt="a rainbow behind a church-looking building in Strasbourg" title="Rainbow in Strasbourg">
-		<img class="sizeadjust" src="images/rome_churchv.jpg" alt="a view of the right side of the Cathedral of Strasbourg on a mostly sunny day with the sun behind it" title="the Strasbourg Cathedral">
-		<img class="sizeadjust" src="images/rome_obeliskv.jpg" alt="the astronomical clock of the Strasbourg Cathedral" title="the Astronomical Clock of Strasbourg">
-		<img src="images/rome_palaceh.jpg" alt="a tour boat on a canal in Strasbourg in the late evening, colored half-tiered houses in the background" title="Strasbourg Canal at night">
-		<img src="images/rome_pillarbuildingh.jpg" alt="a rainbow behind a church-looking building in Strasbourg" title="Rainbow in Strasbourg">
-		<img src="images/rome_palace2h.jpg" alt="a tour boat on a canal in Strasbourg in the late evening, colored half-tiered houses in the background" title="Strasbourg Canal at night">
-		<img src="images/rome_ruins1h.jpg" alt="a rainbow behind a church-looking building in Strasbourg" title="Rainbow in Strasbourg">
-		<img src="images/rome_ruins2h.jpg" alt="a tour boat on a canal in Strasbourg in the late evening, colored half-tiered houses in the background" title="Strasbourg Canal at night">
-		<img src="images/rome_palace3h.jpg" alt="a rainbow behind a church-looking building in Strasbourg" title="Rainbow in Strasbourg">
-		<img class="sizeadjust" src="images/rome_ruins3v.jpg" alt="the center courtyard of the European Parliament building in Strasbourg, large, oval, globe statue in the center, walls with a ton of windows" title="Courtyard of the European Parliament in Strasbourg">
-		<img class="sizeadjust" src="images/rome_ruins4v.jpg" alt="a view of the left side of the Strasbourg Cathedral on a cloudy day" title="The Strasbourg Cathedral">
-		<img src="images/rome_topviewh.jpg" alt="a flock of birds fly over a canal in Strasbourg, colored Alsacian buildings in the background, cloudy day" title="Flight in Strasbourg">
-		<img src="images/rome_basilicasunseth.jpg" alt="colorful buildings, a prominent bright red one in the foreground, canal, bridge, all in Strasbourg" title="Colorful Houses in Strasbourg">
-		
+		<section id="romelink">
+			<h2>Rome</h2>
+			<a class="fancybox" rel="gallery3" href="images/rome_basilicah.jpg" title="Stormy St. Peters Basilica">
+				<img src="images/rome_basilicah.jpg" alt="a large crowd in front of the building and dome of St. Peter's Basilica, and a stormy sky behind it all" title="Stormy St. Peter's Basilica">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_colliseumh.jpg" title="The Colliseum">
+				<img src="images/rome_colliseumh.jpg" alt="the Colliseum in front of a clear sky, a long shadow on the ground in front of it" title="The Colliseum">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_churchv.jpg" title="Roman Church">
+				<img class="sizeadjust" src="images/rome_churchv.jpg" alt="a golden-walled church with a cross at the peak, an almost clear sky, cars and people in front of the church" title="Roman Church">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_obeliskv.jpg" title="Egyptian Obelisk in Rome">
+				<img class="sizeadjust" src="images/rome_obeliskv.jpg" alt="a tall, thin obelisk with a cross on top and hieroglyphs decorating it, stormy sky behind it, people milling around in front of it, orange buildings behind" title="Egyptian Obelisk in Rome">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_palacehjpg" title="Palace on the River">
+				<img src="images/rome_palaceh.jpg" alt="a golden-colored, 3-story palace with a statue of a herd of horses on the roof, some people in front, taken from halfway across the bridge in front of the palace" title="Palace on the River">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_pillarbuildingh.jpg" title="Pillared Building">
+				<img src="images/rome_pillarbuildingh.jpg" alt="a grand white building with many pillars, a statue with a man on a horse in front, an Italian flag on each side, stormy sky behind" title="Pillared Building">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_palace2h.jpg" title="Castel Sant'Angelo">
+				<img src="images/rome_palace2h.jpg" alt="a circular, muddy-orange colored palace with a rising center platform with a statue of an angel on top of it, stormy sky behind, taken from a bridge lined with other statues of angels" title="Castel Sant'Angelo">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_ruins1h.jpg" title="Roman Ruins">
+				<img src="images/rome_ruins1h.jpg" alt="taken at the end of a sunny day, a green lawn with Roman ruins including broken stones, pillars, and a tall, white obelisk" title="Roman Ruins">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_ruins2h.jpg" title="Ruins in Rome">
+				<img src="images/rome_ruins2h.jpg" alt="a sunny day, green lawn, ancient broken buildings" title="Ruins in Rome">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_palace3h.jpg" title="Golden Palace">
+				<img src="images/rome_palace3h.jpg" alt="looking up at a gold-colored building with a dome in front of a stormy sky" title="Golden Palace">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_ruins3v.jpg" title="Ancient Ruins in Rome">
+				<img class="sizeadjust" src="images/rome_ruins3v.jpg" alt="sunny day, a long row of ancient stones sitting on a green lawn, a red-orange building on the right" title="Ancient Ruins in Rome">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_ruins4v.jpg" title="Ancient Pillared Building">
+				<img class="sizeadjust" src="images/rome_ruins4v.jpg" alt="a close-up of an ancient orange and brown building with two white pillars holding stone pieces above a doorway, clear blue sky behind" title="Ancient Pillared Building">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/topviewh.jpg" title="Courtyard in Rome">
+				<img src="images/rome_topviewh.jpg" alt="looking down into a large plaza with people milling around, an obelisk in the center, yellow-orange building beyond, and the dome of St. Peter's basilica in the distance" title="Courtyard in Rome">
+			</a>
+			<a class="fancybox" rel="gallery3" href="images/rome_basilicasunseth.jpg" title="Sunset over Rome">
+				<img src="images/rome_basilicasunseth.jpg" alt="a black lamp in the foreground on the right, roman buildings and the dome of St. Peter's Basilica in the background, orange and purple clouds behind that" title="Sunset over Rome">
+			</a>
+		</section>
 	</div>
 
 </div>
@@ -178,10 +266,7 @@
         })
 
 	$(document).ready(function() {
-		$(".fancybox").fancybox({
-			openEffect	: 'none',
-			closeEffect	: 'none'
-		});
+		$(".fancybox").fancybox();
 	});
 </script>
 

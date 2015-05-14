@@ -6,8 +6,9 @@
 	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<title>Allons-y</title>
-	<meta charset=“utf-8”>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,700' rel='stylesheet' type='text/css'>
@@ -111,7 +112,7 @@
 	
 				<h1>Travel Tip of the Day </h1>
 				<h3><span class="underline">April 24, 2015</span>: If a hostel in Western Europe costs 10&euro; a night or less, it might be a crackhouse.</h3>
-				<img src="images/horizontal1sm.jpg" alt="multi-colored street art from Barcelona, a side profile of a woman on black brick" title="Woman in Black">
+				<img src="images/crackhouse.jpg" alt="multi-colored street art from Barcelona, a side profile of a woman on black brick" title="Woman in Black">
 				<p><a href="#">Read More...</a></p>
 				
 			</article>
@@ -127,7 +128,7 @@
 	
 					<a class="imagelink" href="#"><img src="images/hungarywords.jpg" alt="gonna be a little pic with a little factoid" title=" factoid number two"></a>
 	
-					<a class="imagelink" href="#"><!--<div class="pleasework">--><img src="images/costaricawords.jpg" alt="gonna be a little pic with a little factoid" title=" factoid number three"><!--<h4>Costa Rica has 5426 different species of monkeys.</h4></div>--></a>
+					<a class="imagelink" href="#"><img src="images/costaricawords.jpg" alt="gonna be a little pic with a little factoid" title=" factoid number three"></a>
 	
 					<a class="imagelink" href="#"><img src="images/coinwords.jpg" alt="gonna be a little pic with a little factoid" title=" factoid number four"></a>
 	
@@ -135,13 +136,13 @@
 	
 				<h3>Do you speak...</h3>
 	
-					<a class="imagelink" href="#"><img src="images/square2sm.jpg" alt="gonna be a little flag with the name of x language in x language" title="language number one"></a>
+					<a class="imagelink" href="#"><img src="images/flagfrancewords.jpg" alt="gonna be a little flag with the name of x language in x language" title="language number one"></a>
 		
-					<a class="imagelink" href="#"><img src="images/square1sm.jpg" alt="gonna be a little flag with the name of x language in x language" title="language number one"></a>
+					<a class="imagelink" href="#"><img src="images/flagspainwords.jpg" alt="gonna be a little flag with the name of x language in x language" title="language number one"></a>
 	
-					<a class="imagelink" href="#"><img src="images/square1sm.jpg" alt="gonna be a little flag with the name of x language in x language" title="language number one"></a>
+					<a class="imagelink" href="#"><img src="images/flaggreecewords.jpg" alt="gonna be a little flag with the name of x language in x language" title="language number one"></a>
 	
-					<a class="imagelink" href="#"><img src="images/square2sm.jpg" alt="gonna be a little flag with the name of x language in x language" title="language number one"></a>		
+					<a class="imagelink" href="#"><!--<div class="pleasework">--><img src="images/flagczechwords.jpg" alt="gonna be a little flag with the name of x language in x language" title="language number one"><!--<h4>Czech?</h4></div>--></a>		
 	
 				<p>To learn some basic phrases in the language of your destination, check out <a href="#">Countries 101</a>.</p>
 	
@@ -159,17 +160,17 @@
 	
 				<article class="articlelist">
 					<a href="#"><img src="images/eiffelclouds.jpg" alt="image illustrating first story" title="catchy title for first story"></a> </br>
-					<p>Thunderstorm: 1, Americans: 0</p>
+					<p><a class="titlelink" href="stories_thunderstorm.html">Thunderstorm: 1, Americans: 0</a></p>
 				</article>
 	
 				<article class="articlelist">
 					<a href="#"><img src="images/barunamud.jpg" alt="image illustrating second story" title="catchy title for second story"></a> </br>
-					<p>Lost Without Translation</p>
+					<p><a class="titlelink" href="#">Lost Without Translation</a></p>
 				</article>
 	
 				<article class="articlelist turnoff">
 					<a href="#"><img src="images/stonehenge.jpg" alt="image illustrating third story" title="catchy title for third story"></a> </br>
-					<p>The Day Stonehenge Almost Got Away</p>
+					<p><a class="titlelink" href="#">The Day Stonehenge Almost Got Away</a></p>
 				</article>
 	
 		</article>
@@ -291,8 +292,7 @@
 		</aside>
 	
 	</div>
-
-	<script type="text/javascript">
+<script type="text/javascript">
 	jQuery(function($){
     	     $( '.menu-btn' ).click(function(){
     	     $('.responsive-menu').toggleClass('expand')
@@ -300,10 +300,7 @@
         })
 
 	$(document).ready(function() {
-		$(".fancybox").fancybox({
-			openEffect	: 'none',
-			closeEffect	: 'none'
-		});
+		$(".fancybox").fancybox();
 	});
 </script>
 </body>

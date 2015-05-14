@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="fancyapps-fancyBox-18d1712/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 	<title>Allons-y</title>
-	<meta charset=“utf-8”>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,700' rel='stylesheet' type='text/css'>
@@ -103,8 +104,7 @@
 	</div>
 
 	<aside class="leftmenu clearfix">
-			<h3>The Czech Republic</h3>
-			<p>cool country with weird currency and a weirder language</p>
+			<h3>Cities</h3>
 			<ul>
 				<li class="city"><a href="#">Prague</a></li>
 			</ul>
@@ -113,41 +113,76 @@
 			<ul>
 				<li class="city"><a href="albums_france.html">France</a></li>
 				<li class="city"><a href="albums_italy.html">Italy</a></li>
+				<li class="city"><a href="albums_spain.html">Spain</a></li>
 				<li class="city"><a href="albums_greece.html">Greece</a></li>
 			</ul>
 		</aside>
 
-	<div class="clearfix secondarycenter" id="albumcenter">
-		<h2>Prague</h2>
-		<img src="images/prague_bridgeskyh.jpg" alt="18 bottles of different flavors of Cassis in various colors, red, plum, orange, purple, yellow, clear. (cassis is a sweet liquor made to accompany wine)" title="Cassis Samples">
-		<img src="images/prague_hostelviewh.jpg" alt="an owl carved into a wall in Dijon, rubbed smooth because it's the symbol of Dijon and people rub the owl for luck" title="The Chouette of Dijon">
-
-		<img src="images/prague_partclockh.jpg" alt="the Arc de Triomphe with mostly blue skies and sun behind it surrounded by cars" title="L'Arc de Triomphe">
-		<img src="images/prague_operahouseh.jpg" alt="sunset sky with some clouds, the Eiffel Tower, the Louvre, the Jardin des Tuileries in the distance" title="Paris at Sunset">
-		
-		<img class="sizeadjust" src="images/prague_tower1v.jpg" alt="golden glowing eiffel tower at night" title="Glowing Eiffel Tower">
-		<img class="sizeadjust" src="images/prague_ststephenv.jpg" alt="Eiffel Tower in distance during the day beyond the Jardin des Tuileries" title="more stuff and nonsense">
-		
-		<img src="images/prague_riverredbuildingsh.jpg" alt="the Arc de Triomphe with mostly blue skies and sun behind it surrounded by cars" title="L'Arc de Triomphe">
-		<img src="images/prague_greenriverbuildingh.jpg" alt="sunset sky with some clouds, the Eiffel Tower, the Louvre, the Jardin des Tuileries in the distance" title="Paris at Sunset">
-
-		<img src="images/prague_citycenterh.jpg" alt="the Arc de Triomphe with mostly blue skies and sun behind it surrounded by cars" title="L'Arc de Triomphe">
-		<img src="images/prague_buildingsriverh.jpg" alt="sunset sky with some clouds, the Eiffel Tower, the Louvre, the Jardin des Tuileries in the distance" title="Paris at Sunset">
-		
-		<img class="sizeadjust" src="images/prague_gatetowerv.jpg" alt="Notre Dame in Paris on a cloudy day with a crowd in front" title="Notre Dame">
-		<img class="sizeadjust" src="images/prague_greentopv.jpg" alt="trees at the edge of the Jardin des Tuileries" title="Trees">
-		
-		<img src="images/prague_riverbridgeh.jpg" alt="The Moulin Rouge in Paris in the evening" title="the Moulin Rouge">
-		<img src="images/prague_greentopdayh.jpg" alt="Sacre Coeur on Mont-Martre in Paris" title="Sacre Coeur">
-		
-		<img src="images/prague_whitebuildingh.jpg" alt="the upper layers of the cathedral Notre Dame de Dijon on a cloudy day" title="Notre Dame de Dijon">
-		<img src="images/prague_cornerbuildingh.jpg" alt="a view of the Place de la Libération in Dijon from the top of the tower of the Palais des Ducs" title="Place de la Libération">
-		
-		<img class="sizeadjust" src="images/prague_churchinsidev.jpg" alt="blue, red, and yellow flags of the Ducs of Bourgogne hanging over the Rue de la Liberté on a sunny day" title="Flags of the Ducs of Bourgogne">
-		<img class="sizeadjust" src="images/prague_churchsunrisev.jpg" alt="the fountain at Darcy Park in Dijon, blue-green water, green trees, white sky" title="Fontaine Darcy">
-		
-		<img src="images/prague_nightbuildingh.jpg" alt="The Moulin Rouge in Paris in the evening" title="the Moulin Rouge">
-		<img src="images/prague_riverpalaceh.jpg" alt="Sacre Coeur on Mont-Martre in Paris" title="Sacre Coeur">
+	<div class="clearfix secondarycenter albumcenter">
+		<h1>The Czech Republic</h1>
+		<section id="praguelink">	
+			<h2>Prague</h2>
+			<a class="fancybox" rel="gallery1" href="images/prague_bridgeskyh.jpg" title="Bridge Over Vltava River">
+				<img src="images/prague_bridgeskyh.jpg" alt="a mostly cloudy day, a dark-colored bridge over the Vltava River in Prague, a middle-sized boat in the water in front of the river, greens and buildings on the left bank" title="Bridge Over Vltava River">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_hostelviewh.jpg" title="Prague">
+				<img src="images/prague_hostelviewh.jpg" alt="a cloudy day, sun from behind the photographer shining down onto red-roofed buildings and one large, green domed roof" title="Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_partclockh.jpg" title="Part of the Prague Astronomical Clock">
+				<img src="images/prague_partclockh.jpg" alt="an outside, blue circle with gold numbers 0-24 beginning and ending on the right side, a light blue circle inside that with gold roman numerals 1-12 twice, then a blue circle set on top of that with astrological symbols; then 4 hands: the sun and moon on the astrological circle, then minute and hour hands on the 24-hour clock" title="Part of the Prague Astronomical Clock">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_operahouseh.jpg" title="Opera House in Prague">
+				<img src="images/prague_operahouseh.jpg" alt="late in the day, a two-story, golden-colored building at the top of a staircase, green bushes and stepping stones on grass in front of it" title="Opera House in Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_tower1v.jpg" title="The Powder Tower, an old city gate from the 15th century">
+				<img class="sizeadjust" src="images/prague_tower1v.jpg" alt="a tower of black brick, large open-air windows near the top, dark teal roof with three points and a black clock with gold accents in the middle" title="The Powder Tower, an old city gate from the 15th century">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_ststephenv.jpg" title="Tyn Church, Old Town Square, Prague">
+				<img class="sizeadjust" src="images/prague_ststephenv.jpg" alt="a cloudy sky behind golden-colored church with a spiky black roof, then a row of shorter black roofs on golden-colored buildings in front of that" title="Tyn Church, Old Town Square, Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_riverredbuildingsh.jpg" title="Buildings by the Vltava River">
+				<img src="images/prague_riverredbuildingsh.jpg" alt="a cloudy sky, the river takes up most of the photo, greenery on the edge of the river, colorful buildings behind that" title="Buildings by the Vltava River">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_greenriverbuildingh.jpg" title="Green Building on the River">
+				<img src="images/prague_greenriverbuildingh.jpg" alt="a mostly clear day, a green building on a small island in the river" title="Green Building on the River">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_citycenterh.jpg" title="The National Museum in Prague">
+				<img src="images/prague_citycenterh.jpg" alt="a mostly clear, bright sky, a large, golden brown building takes up the width of photo, then greenery in front of that" title="The National Museum in Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_buildingsriverh.jpg" title="The Vltava River">
+				<img src="images/prague_buildingsriverh.jpg" alt="bridge over the Vltava River, cloudy sky, dark green hills in the background, light brown buildings on the bank to the right, a large tour boat on the right" title="The Vltava River">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_gatetowerv.jpg" title="The Powder Tower">
+				<img class="sizeadjust" src="images/prague_gatetowerv.jpg" alt="the back of a tall black-brown tower with a second-floor walkway connecting it to a yellow building to the left" title="The Powder Tower">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_greentopv.jpg" title="St. Francis Seraph">
+				<img class="sizeadjust" src="images/prague_greentopv.jpg" alt="looking up at a golden-colored building with a green dome roof in front of a clear evening sky" title="St. Francis Seraph">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_riverbridgeh.jpg" title="The Vltava River in the Afternoon">
+				<img src="images/prague_riverbridgeh.jpg" alt="the river split into two lanes, a small one on the left with one white boat in it, by a low barrier; a small dirt walking path on the left bank, the end of a small island in the middle with trees on it, a bridge in the distance" title="The Vltava River in the Afternoon">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_greentopdayh.jpg" title="Little Square in Old Town Prague">
+				<img src="images/prague_greentopdayh.jpg" alt="two golden-colored buildings, the taller one with a green dome roof, the other with a peaked, black roof and black statues along the edge" title="Little Square in Old Town, Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_whitebuildingh.jpg" title="The Maisel Synagogue in Prague">
+				<img src="images/prague_whitebuildingh.jpg" alt="a clean, white building with small pillars rising from a peaked roof, an orange triagle above a dark doorway, trees in front of the building in shade" title="The Maisel Synagogue in Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_cornerbuildingh.jpg" title="A Building in the Jewish Quarter in Prague">
+				<img src="images/prague_cornerbuildingh.jpg" alt="a yellow corner building in front of a partly cloudy sky" title="A Building in the Jewish Quarter in Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_churchinsidev.jpg" title="Nave Vault in St. Nicholas Church">
+				<img class="sizeadjust" src="images/prague_churchinsidev.jpg" alt="dark statues in front, pink pillars up to the ceiling, which is decorated in portions with biblical scenes, the rest of the walls are white" title="Nave Vault in St. Nicolas Church">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_churchsunrisev.jpg" title="Sunrise Behind a Church in Prague">
+				<img class="sizeadjust" src="images/prague_churchsunrisev.jpg" alt="a church in shadow with a white front, light yellow accents, black pointed roof, a red, purple, and orange sunrise sky behind it, tram lines crossing in front" title="Sunrise Behind a Church in Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_nightbuildingh.jpg" title="A Social Hall in Prague">
+				<img src="images/prague_nightbuildingh.jpg" alt="nighttime, a light-colored 5-story building illuminated by yellow lanterns, green dome roof" title="A Social Hall in Prague">
+			</a>
+			<a class="fancybox" rel="gallery1" href="images/prague_riverpalaceh.jpg" title="National Theater at Night">
+				<img src="images/prague_riverpalaceh.jpg" alt="nighttime, the river in front reflecting yellow lights, a tall, long light building with a blue dome on the roof, all illuminated by yellow street lights" title="National Theater at Night">
+			</a>
+		</section>
 		
 		
 		
@@ -163,10 +198,7 @@
         })
 
 	$(document).ready(function() {
-		$(".fancybox").fancybox({
-			openEffect	: 'none',
-			closeEffect	: 'none'
-		});
+		$(".fancybox").fancybox();
 	});
 </script>
 

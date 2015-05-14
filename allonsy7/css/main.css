@@ -7,7 +7,6 @@ body {
 .mainmenu {
 	width: 100%;
 	background-color: rgb(11,216,243);
-	padding: .3em;
 }
 nav {
 	width: 100%;
@@ -26,8 +25,8 @@ nav>ul>li {
 	width: 16.66%;
 	text-align: center;
 	border-left: .2em solid #e8a74d;
-	padding-top: .4em;
-	padding-bottom: .4em;
+	padding-top: .75em;
+	padding-bottom: .75em;
 }
 nav>p {
 	color: #fff;
@@ -40,6 +39,7 @@ nav>p {
 	width: 14.28%;
 	float: left;
 	text-align: center;
+	padding-top: .25em;
 }
 
 nav>ul>li>a {
@@ -86,6 +86,9 @@ nav li:hover .submenu {
 	text-align: left;
 	padding-right: .5em;
 	padding-bottom: .75em;
+}
+.submenu li:first-child {
+	padding-top: .75em;
 }
 
 .submenu a {
@@ -267,13 +270,13 @@ h3 {
 }
 .pleasework h4 {
 	font-family: "Ubuntu", sans-serif;
-	color: #1E5A19;
-	font-size: 3.5em;
+	color: #222;
+	font-size: 3em;
 	line-height: 175%;
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: .25em .3em;
+	padding: 2.2em 1.5em;
 	text-align: center;
 }
 .endbar {
@@ -307,7 +310,7 @@ h3 {
 	text-align: center;
 	font-weight: 700;
 }
-.articlelist .titlelink:hover {
+.titlelink:hover {
 	color: #09ABC0;
 	text-decoration: underline;
 }
@@ -317,8 +320,8 @@ h3 {
 }
 /*countries101 styling*****************************************************************/
 #countriescenter {
-	width: 100%;
-	border-left: none;
+	width: 75%;
+	float: left;
 }
 .headline {
 	background-color: #333;
@@ -331,19 +334,35 @@ h3 {
 .headline h1 {
 	text-align: center;
 	border-bottom: none;
-	padding-top: 1em;
+	padding-top: .5em;
 	width: 50%;
 }
 .headline img {
 	width: 25%;
-	padding: .5em 4em;
+	padding: .5em 3em;
 }
 iframe {
 	width: 50%;
 	margin-left: 25%;
 	padding-top: 1em;
 }
-
+a>img {
+	width: 40%;
+}
+#countriescenter #language {
+	padding-left: 7em;
+	padding-right: 7em;
+}
+#countriescenter .table {
+	background-color: #fff;
+	border-bottom: .1em solid #999;
+}
+#countriescenter .table p {
+	width:50%;
+	float: left;
+	padding-right: 0;
+	padding-left: 0;
+}
 
 
 
@@ -410,25 +429,37 @@ iframe {
 }
 
 /*album styling*******************************************************************/
-#albumcenter {
+.albumcenter {
 	background: #032F33;
 }
-#albumcenter img {
+.albumcenter h1 {
+	text-align: center;
+	padding-bottom: .75em;
+	padding-top: .5em;
+	border-bottom: .25em solid #e8a74d;
+}
+/*.albumheader p {
+	font-family: "Ubuntu", sans-serif;
+	color: #0bd8f3;
+	font-size: 1.5em;
+	line-height: 150%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}*/
+.albumcenter img {
 	width: 44%;
 	float: left;
 	margin-right: 3%;
 	margin-left: 3%;
 	margin-bottom: 2.5em;
-	-webkit-box-shadow: 0 0 .75em .1em rgba(195,239,243,1);
-	-moz-box-shadow: 0 0 .75em .1em rgba(195,239,243,1);
-	box-shadow: 0 0 .75em .1em rgba(195,239,243,1);
-	border-radius: .1em;
+	border: .3em solid #fff;
+	border-radius: .05em;
 }
-#albumcenter h2 {
+.albumcenter h2 {
 	clear: both;
 	margin-bottom: 1.666em;
 }
-#albumcenter .sizeadjust {
+.albumcenter .sizeadjust {
 	width: 34%;
 	margin-right: 8%;
 	margin-left: 8%;
@@ -666,6 +697,7 @@ iframe {
 		float: left;
 		border-right: .1em solid #999;
 	}
+
 }
 @media only screen and (max-width: 600px) and (min-width: 484px) {
 	body {
@@ -737,6 +769,16 @@ iframe {
 		width: 50%;
 		float: left;
 		border-right: .1em solid #999;
+	}
+	#albumcenter img {
+		width: 84%;
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+	#albumcenter .sizeadjust {
+		width: 63%;
+		margin-left: 18.5%;
+		margin-right: 18.5%;
 	}
 } 
 @media only screen and (max-width: 483px) and (min-width: 353px) {
