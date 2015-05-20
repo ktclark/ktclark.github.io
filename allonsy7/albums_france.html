@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -21,7 +21,7 @@
 			<ul class="clearfix">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="traveltips.html">Travel Tips</a></li>
-				<li class="pulldown"><a href="#">Countries 101 <span class="arrow"> &#9660;</span></a>
+				<li class="pulldown"><a href="countries101_france.html">Countries 101 <span class="arrow"> &#9660;</span></a>
 					<ul class="submenu">
 						<li><a href="countries101_france.html">France</a></li>
 						<li><a href="#">Italy</a></li>
@@ -34,7 +34,6 @@
 						<li><a href="#">The Czech Republic</a></li>
 						<li><a href="#">England</a></li>
 						<li><a href="#">Scotland</a></li>
-						<li><a href="#">Wales</a></li>
 						<li><a href="#">Ireland</a></li>
 						<li><a href="#">Belize</a></li>
 						<li><a href="#">The Dominican Republic</a></li>
@@ -43,7 +42,7 @@
 					</ul>
 				</li>
 				<li><a href="stories_thunderstorm.html">Salacious Stories</a></li>
-				<li class="pulldown"><a href="#">Photo Albums <span class="arrow"> &#9660;</span></a>
+				<li class="pulldown"><a href="albums_france.html">Photo Albums <span class="arrow"> &#9660;</span></a>
 					<ul class="submenu">
 						<li><a href="albums_france.html">France</a></li>
 						<li><a href="albums_italy.html">Italy</a></li>
@@ -65,12 +64,12 @@
 				<span></span>     		
 				<div class="responsive-menu">
         			<ul>
-           				<li>Home</li>
-           				<li>Travel Tips</li>
-           				<li>Countries 101</li>
-           				<li>Salacious Stories</li>
-           				<li>Photo Albums</li>
-           				<li>Blog</li>
+           				<li><a href="index.html">Home</a></li>
+	           			<li><a href="traveltips.html">Travel Tips</a></li>
+	           			<li><a href="countries101_france.html">Countries 101</a></li>
+	           			<li><a href="stories_thunderstorm.html">Salacious Stories</a></li>
+	           			<li><a href="albums_france.html">Photo Albums</a></li>
+	           			<li><a href="blog.html">Blog</a></li>
         			</ul>
         		</div>
      		</div>
@@ -103,28 +102,11 @@
 		</header>
 	</div>
 
-	<aside class="leftmenu clearfix">
-			<h3>Cities</h3>
-			<ul>
-				<li class="city"><a href="#">Paris</a></li>
-				<li class="city"><a href="#dijonlink">Dijon</a></li>
-				<li class="city"><a href="#strasbourglink">Strasbourg</a></li>
-				<li class="city"><a href="#colmarlink">Colmar</a></li>
-				<li class="city"><a href="#larochellelink">La Rochelle</a></li>
-			</ul>
-
-			<h3>Other Albums</h3>
-			<ul>
-				<li class="city"><a href="albums_italy.html">Italy</a></li>
-				<li class="city"><a href="albums_spain.html">Spain</a></li>
-				<li class="city"><a href="albums_greece.html">Greece</a></li>
-				<li class="city"><a href="albums_czech.html">The Czech Republic</a></li>
-			</ul>
-		</aside>
+	
 
 	<div class="clearfix secondarycenter albumcenter">
 		<h1>France</h1>
-		<section id="paris">
+		<section class="clearfix" id="paris">
 			<h2>Paris</h2>
 			<a class="fancybox" rel="gallery1" href="images/nighteiffel.jpg" title="Glowing Eiffel Tower">
 				<img class="sizeadjust" src="images/nighteiffel.jpg" alt="golden glowing eiffel tower at night" title="Glowing Eiffel Tower">
@@ -151,7 +133,7 @@
 				<img src="images/sacrecoeur.jpg" alt="Sacre Coeur on Mont-Martre in Paris" title="Sacre Coeur">
 			</a>
 		</section>
-		<section id="dijonlink">
+		<section class="clearfix" id="dijonlink">
 			<h2>Dijon</h2>
 			<a class="fancybox" rel="gallery2" href="images/dijon_cassis.jpg" title="Cassis Samples">
 				<img src="images/dijon_cassis.jpg" alt="18 bottles of different flavors of Cassis in various colors, red, plum, orange, purple, yellow, clear. (cassis is a sweet liquor made to accompany wine)" title="Cassis Samples">
@@ -179,7 +161,7 @@
 			</a>
 		</section>	
 
-		<section id="strasbourglink">
+		<section class="clearfix" id="strasbourglink">
 			<h2>Strasbourg</h2>
 			<a class="fancybox" rel="gallery3" href="images/strasbourg_cathedralrightv.jpg" title="The Strasbourg Cathedral">
 				<img class="sizeadjust" src="images/strasbourg_cathedralrightv.jpg" alt="a view of the right side of the Cathedral of Strasbourg on a mostly sunny day with the sun behind it" title="the Strasbourg Cathedral">
@@ -207,7 +189,7 @@
 			</a>
 		</section>
 		
-		<section id="colmarlink">
+		<section class="clearfix" id="colmarlink">
 			<h2>Colmar</h2>
 			<a class="fancybox" rel="gallery4" href="images/colmar_canalh.jpg" title="Colmar Canal">
 				<img src="images/colmar_canalh.jpg" alt="colorful houses and a bridge over a canal in Colmar" title="Colmar Canal">
@@ -235,7 +217,7 @@
 			</a>
 		</section>
 
-		<section id="larochellelink">
+		<section class="clearfix" id="larochellelink">
 			<h2>La Rochelle</h2>
 			<a class="fancybox" rel="gallery5" href="images/rochelle_fullclock.jpg" title="Clock Tower in La Rochelle">
 				<img class="sizeadjust" src="images/rochelle_fullclock.jpg" alt="orange-gold lights illuminate the giant clock-gate into old town in La Rochelle in late evening" title="Clock Tower in La Rochelle">
@@ -263,6 +245,26 @@
 			</a>
 		</section>
 	</div>
+	<aside class="leftmenu clearfix">
+		<div class="todisappear">
+			<h3>Cities</h3>
+			<ul>
+				<li class="city"><a href="#">Paris</a></li>
+				<li class="city"><a href="#dijonlink">Dijon</a></li>
+				<li class="city"><a href="#strasbourglink">Strasbourg</a></li>
+				<li class="city"><a href="#colmarlink">Colmar</a></li>
+				<li class="city"><a href="#larochellelink">La Rochelle</a></li>
+			</ul>
+		</div>
+
+		<h3>Other Albums</h3>
+		<ul>
+			<li class="city"><a href="albums_italy.html">Italy</a></li>
+			<li class="city"><a href="albums_spain.html">Spain</a></li>
+			<li class="city"><a href="albums_greece.html">Greece</a></li>
+			<li class="city"><a href="albums_czech.html">The Czech Republic</a></li>
+		</ul>
+	</aside>
 
 </div>
 
