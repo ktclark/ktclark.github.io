@@ -63,7 +63,7 @@ img {
 	width: 33.33%;
 }
 .words {
-	padding: 2em 1.5em;
+	padding: 1.5em 1.5em; /*work on decreasing space b/t h2 and .words*/
 	font-family: "Lora", serif;
 	line-height: 1.5em;
 	font-size: .9em;
@@ -91,6 +91,9 @@ img {
 .button a:hover {
 	background-color: #18B091;
 	transition:all linear 0.15s;
+}
+footer {
+	/*also figure out why the hell the footer doesn't register*/
 }
 .clearfix:after { 
 	content: "."; 

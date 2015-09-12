@@ -1,0 +1,35 @@
+ *{margin:0; padding:0; box-sizing: border-box;}
+body * {
+	background-color: #222;
+}
+.left {
+	border-right: 3px solid red;
+	width: 20%;
+	height: 80%;
+}
+.top {
+	border-bottom: 3px solid green;
+	width: 80%;
+	height: 20%;
+}
+/*.center {
+}
+.right {
+	border-left: 3px solid yellow;
+	width: 20%;
+	height: 80%;
+	float: left;
+}
+.bottom {
+	border-top: 3px solid green;
+	width: 80%;
+	height: 20%;
+	float: left;
+}*/
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
