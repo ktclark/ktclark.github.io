@@ -1,6 +1,6 @@
  *{margin:0; padding:0; box-sizing: border-box;}
  body {
- 	background-color: #fff;
+ 	background-color: #222;
  	font-size: 18px;
  }
 h1 {
@@ -18,7 +18,7 @@ h1 span {
 nav {
 	height: .5em;
 	width: 100%;
-	background: -webkit-linear-gradient(left, transparent 15%, rgba(34,74,130,1) 85%);
+	background: -webkit-linear-gradient(left, rgba(34,74,130,.05), rgba(34,74,130,1));
 	background: -moz-linear-gradient(left, transparent 15%, rgba(34,74,130,1) 85%);
 	background: linear-gradient(left, transparent, rgba(34,74,130,1));
 }
