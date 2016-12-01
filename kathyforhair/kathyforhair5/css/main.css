@@ -12,34 +12,30 @@
 	background: #fff;
 	width: 75%;
 	margin: 0 auto;
-	z-index: -2;
 	position: relative;
 }
-#logo {
-	z-index: -1;
+/*#logo {
+	z-index: 1;
 	position: absolute;
 	left: 2.5em;
 	top: 1.5em;
+}*/
+#starter {
+	background-image: url('images/sihouettey_logo_litelong.png');
 }
 h1 {
 	color: #881E2C;
 	text-align: center;
 	font-size: 3em;
 	padding-top: .5em;
-	z-index: 1;
 }
 h1 span {
 	color: #C66774;
-	z-index: 1;
 }
-header img{
-	height: 1.2em;
-	margin: 0 .3em;
-}
+
 nav {
-	width: 80%;
+	width: 88%;
 	margin: 1em auto;
-	z-index: 1;
 }
 nav ul {
 	list-style-type: none;
@@ -47,13 +43,11 @@ nav ul {
 nav li {
 	float: left;
 	width: 20%;
-	z-index: 1;
 }
 nav a {
 	text-decoration: none;
 	color: #881E2C;
 	font-size: 1.5em;
-	z-index: 1;
 }
 nav a:hover {
 	color: #29BB47;
@@ -63,7 +57,8 @@ nav a:hover {
 hr {
 	margin: 0 auto 25em;
 	width: 70%;
-	border: .2em solid rgba(136,30,44,.2);
+	/*border: .2em solid rgba(136,30,44,.2);*/
+	border: .2em solid #881E2C;
 }
 p {
 	margin-bottom: 10em;
