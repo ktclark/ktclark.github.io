@@ -2,8 +2,8 @@
 
 body {
 	/*background-image: url("file:///Users/kristinaclark/Desktop/teaching%20in%20france/secondes%202016-2017/jeopardy/images/redBackground.png");*/
-	background-image: url("https://drive.google.com/open?id=0ByCgMCpUr9JndkM5VTFJOHRUSVU");
-	/*background-color: #6C2F2A;*/
+	/*background-image: url("https://drive.google.com/open?id=0ByCgMCpUr9JndkM5VTFJOHRUSVU");*/
+	background-color: #6C2F2A;
 	background-size: cover;
 	background-position: center;
 	font-size: 20px;
@@ -46,8 +46,8 @@ a {
 	color: #5C4F1D;
 	background: #16456C;
 	/*color: #8F781E;
-	background: #20659F;
-	border: .2em solid #555;*/
+	background: #20659F;*/
+	border: .2em solid #555;
 	/*color: rgba(0,0,0,0);
 	background: rgba(0,0,0,0);
 	border: .2em solid rgba(0,0,0,0);*/
