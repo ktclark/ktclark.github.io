@@ -1,7 +1,8 @@
 *{margin:0; padding:0; box-sizing: border-box;}
 
 body {
-	background-image: url("file:///Users/kristinaclark/Desktop/ktclark.github.io/jeopardy/images/redBackground.png");
+	/*background-image: url("file:///Users/kristinaclark/Desktop/teaching%20in%20france/secondes%202016-2017/jeopardy/images/redBackground.png");*/
+	background-image: url("images/redBackground.png");
 	/*background-color: #6C2F2A;*/
 	background-size: cover;
 	background-position: center;
