@@ -30,7 +30,10 @@ h1 {
 p {
 	width: 16.66%;
 	border: .2em solid #A6AAA9;
+	background: rgb(71,160,236);
 	background: -webkit-linear-gradient(bottom, rgb(13,108,191), rgb(71,160,236));
+	background: -moz-linear-gradient(bottom, rgb(13,108,191), rgb(71,160,236));
+	background: linear-gradient(bottom, rgb(13,108,191), rgb(71,160,236));
 	float: left;
 	color: #DCBC44;
 	text-align:center;
